@@ -18,6 +18,8 @@
 
 
 \setbeameroption{show notes on second screen} % comment out this line to get without notes version for the purpose of distribution
+% \setbeameroption{show notes} % note pages are interleaved with slides
+% \setbeameroption{hide notes}
 \MakePerPage{footnote} % pkg: perpage, makes footnotes per page
 \graphicspath{{./imgs/}} % pkg: graphicx, direcoty of images
 \DeclareMathOperator{\E}{\mathbb{E}} % pkg: amsmath
@@ -243,6 +245,7 @@
             \hyperlink{outl}{\beamerbutton{Outline}}
         };
     \end{tikzpicture}
+
 
     \note<1>[item]{The model employs the panel data fixed effects OLS\@.}
     \note<1>[item]{The dependent variables are excess buys and excess sells of each investor group, as defined earlier.}
